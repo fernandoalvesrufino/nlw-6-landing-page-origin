@@ -16,8 +16,7 @@
 <br>
 
 <p align="center">
-  <img alt="OriginSix" src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-4.0.3&ixid=MnwxMjA3fD
-      B8MHxzZWFyY2h8M3x8aGFpcmRyZXNzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" width="100%">
+  <img alt="OriginSix" src="./img/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
