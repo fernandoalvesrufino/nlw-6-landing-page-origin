@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OriginSix</title>
+  
+  <!-- icons -->
+  <link rel="stylesheet" href="assets/fonts/style.css">
 
   <!-- styeles -->
   <link rel="stylesheet" href="style.css">
@@ -17,7 +20,7 @@
 <body>
 
   <header id="header">
-    <nav class="container show">
+    <nav class="container">
       <a class="logo" href="#">beauty<span>salon</span>.</a>
       <div class="menu">
         <!-- menu -->
@@ -30,8 +33,8 @@
         </ul>
         <!-- /menu -->
       </div>
-      <div class="open">...</div>
-      <div class="close">x</div>
+      <div class="toggle icon-menu"></div>
+      <div class="toggle icon-close"></div>
     </nav>
   </header>
   
@@ -55,16 +58,56 @@
 
     <section class="section" id="about">
       <div class="container grid">
-        Sobre
+        <div class="image"><img src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80" alt="três mulheres sorrindo"></div>
+        <div class="text">
+          <h2 class="title">Sobre nós</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quisquam amet, exercitationem impedit ullam repellat aspernatur necessitatibus doloremque iure reiciendis soluta eum cupiditate eos, deserunt possimus nihil ipsum odit ea.</p>
+          <br>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam eos tempora nihil molestiae quae necessitatibus soluta velit libero, reiciendis optio qui asperiores odit eveniet fugit eius sed voluptate? Libero, repellendus!</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, facilis blanditiis impedit recusandae quia, minus iste maiores architecto reprehenderit tenetur expedita illum aliquid? Rem non, repellendus dolores quod temporibus a.</p>
+        </div>
       </div>
     </section>
+
+    <div class="divider-2"></div>
 
     <section class="section" id="services">
       <div class="container grid">
-        Serviços
+        <header>
+          <h2 class="title">Serviços</h2>
+          <p>Com mais de 10 anos no mercado, o <strong>Beautysalon</strong>
+            já conquistou clientes de inúmeros países com seus
+            tratamentos exclusivos e totalmente naturais</p>
+        </header>
+        <div class="cards grid">
+          <div class="card">
+            <i class="icon-woman-hair"></i>
+            <h3 class="title">Terapia capilar</h3>
+            <p>
+              Terapia completa para couro cabeludo e fios, protegendo todos os tipos de cabelos, inclusive os longos e finos.
+            </p>
+          </div>
+          <div class="card">
+            <i class="icon-trim"></i>
+            <h3 class="title">Cortes</h3>
+            <p>
+              A nossa equipe é repleta de profissionais renomados, famosos por lançarem tendências com cortes diferenciados e clássicos.
+            </p>
+          </div>
+          <div class="card">
+            <i class="icon-cosmetic"></i>
+            <h3 class="title">Tratamentos</h3>
+            <p>
+              O beautysalon conta com diversos tratamentos naturais e totalmente veganos, para qualquer tipo de cabelo.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
-
   </main>
+
+  <script src="main.js"></script>
+
 </body>
 </html>
