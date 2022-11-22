@@ -53,3 +53,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 ---
 
 by Fernando Rufino
+
+> Conteúdo apresentado na NLW 6 Origin pela Rocketseat
