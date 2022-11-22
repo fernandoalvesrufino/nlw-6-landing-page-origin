@@ -8,6 +8,11 @@
   <!-- icons -->
   <link rel="stylesheet" href="assets/fonts/style.css">
 
+  <!-- https://swiperjs.com/get-started -->
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+
   <!-- styeles -->
   <link rel="stylesheet" href="style.css">
 
@@ -117,55 +122,62 @@
 
     <!-- ------ TESTIMONIALS ------ -->
     <section class="section" id="testimonials">
-      <div class="container grid">
+      <div class="container">
         <header>
           <h2 class="title">Depoimentos de quem já passou por aqui</h2>
         </header>
-        <div class="testimonials">
-          <div class="testimonial">
-            <blockquote>
-              <p>
-                <span>&ldquo;</span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dicta
-                quae voluptas dolorum saepe. Magni aut officiis blanditiis quibusdam!
-              </p>
-              <cite>
-                <!-- site de origem das fotos: https://randomuser.me/photos -->
-                <!-- random user me -->
-                <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Foto de Wanessa Souza">
-                Wanessa Souza
-              </cite>
-            </blockquote>
-          </div>
+        <div class="testimonials swiper">
+          
+          <div class="swiper-wrapper">
 
-          <div class="testimonial">
-            <blockquote>
-              <p>
-                <span>&ldquo;</span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dicta
-                quae voluptas dolorum saepe. Magni aut officiis blanditiis quibusdam!
-              </p>
-              <cite>
-                <img src="https://randomuser.me/api/portraits/women/26.jpg" alt="Foto de Franciele Venega">
-                Franciele Venega
-              </cite>
-            </blockquote>
-          </div>
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dicta
+                  quae voluptas dolorum saepe. Magni aut officiis blanditiis quibusdam!
+                </p>
+                <cite>
+                  <!-- site de origem das fotos: https://randomuser.me/photos -->
+                  <!-- random user me -->
+                  <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Foto de Wanessa Souza">
+                  Wanessa Souza
+                </cite>
+              </blockquote>
+            </div>
+  
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dicta
+                  quae voluptas dolorum saepe. Magni aut officiis blanditiis quibusdam!
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/26.jpg" alt="Foto de Franciele Venega">
+                  Franciele Venega
+                </cite>
+              </blockquote>
+            </div>
+  
+            <div class="testimonial swiper-slide">
+              <blockquote>
+                <p>
+                  <span>&ldquo;</span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dicta
+                  quae voluptas dolorum saepe. Magni aut officiis blanditiis quibusdam!
+                </p>
+                <cite>
+                  <img src="https://randomuser.me/api/portraits/women/71.jpg" alt="Foto de Valeska Fabris">
+                  Valeska Fabris
+                </cite>
+              </blockquote>
+            </div>
 
-          <div class="testimonial">
-            <blockquote>
-              <p>
-                <span>&ldquo;</span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dicta
-                quae voluptas dolorum saepe. Magni aut officiis blanditiis quibusdam!
-              </p>
-              <cite>
-                <img src="https://randomuser.me/api/portraits/women/71.jpg" alt="Foto de Valeska Fabris">
-                Valeska Fabris
-              </cite>
-            </blockquote>
           </div>
-
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+          
         </div>
       </div>
     </section>
@@ -174,9 +186,35 @@
     
     <!-- ------ CONTACT ------ -->
 
+    <section class="section" id="contact">
+      <div class="container grid">
+        
+        <div class="text">
+          <h2 class="title">Entre em contato com a gente!</h2>
+          <p>Entre em contato com a Beautysalon, queremos tirar suas dúvidas, ouvir suas críticas e sujestões.</p>
+          <a href="https://api.whatsapp.com/send?phone=+5511999999999&text=Oi! Gostaria de agendar um horário" class="button" target="_blank"><i class="icon-whatsapp"></i> Entrar em contato</a>
+        </div>
+
+        <div class="links">
+          <ul class="grid">
+            <li><i><span class="icon-phone"></span></i> 11 99999-9999</li>
+            <li><i><span class="icon-map-pin"></span></i> R. Brasil, 1234</li>
+            <li><i><span class="icon-mail"></span></i> contato@beautysalon.com</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
   </main>
 
-  <script src="main.js"></script>
+  <!-- swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
+  <!-- scrollreveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- main.js -->
+  <script src="main.js"></script>
 </body>
 </html>
