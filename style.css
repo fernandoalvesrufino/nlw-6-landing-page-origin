@@ -549,6 +549,14 @@ footer .social a:hover{
     padding: 10rem 0;
   }
 
+  .section header,
+  #testimonials header {
+    max-width: 32rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .button {
     height: 3.125rem;
   }
@@ -571,6 +579,11 @@ footer .social a:hover{
   
   nav .icon-menu {
     display: none;
+  }
+
+  /* layout */
+  main {
+    margin-top: var(--header-height);
   }
 
   /* home */
@@ -596,8 +609,45 @@ footer .social a:hover{
     grid-auto-flow: column;
   }
 
-  main {
-    margin-top: var(--header-height);
+  /* services */
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .card {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  /* testimonials */
+  #testimonials .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* contact */
+  #contact .container {
+    grid-auto-flow: column;
+    align-items: center;
+  }
+
+  #contact .text {
+    max-width: 25rem;
+  }
+
+  /* footer */
+  footer.section{
+    padding: 3.75rem 0;
+  }
+
+  footer .container {
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer .logo{
+    font-size: 2.25rem;
   }
 }
 /* large devices: 1023 >  */
